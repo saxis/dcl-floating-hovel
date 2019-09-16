@@ -1,3 +1,5 @@
+import {BuilderHUD} from './modules/BuilderHUD'
+
 const scene = new Entity()
 const transform = new Transform({
   position: new Vector3(0, 0, 0),
@@ -166,17 +168,6 @@ const transform_15 = new Transform({
 stone_Module_4M_2.addComponentOrReplace(transform_15)
 engine.addEntity(stone_Module_4M_2)
 
-// const ornament_04 = new Entity()
-// ornament_04.setParent(scene)
-// const gltfShape_6 = new GLTFShape('models/Ornament_04/Ornament_04.glb')
-// ornament_04.addComponentOrReplace(gltfShape_6)
-// const transform_16 = new Transform({
-//   position: new Vector3(7.5, 13, 11),
-//   rotation: new Quaternion(0, 0, 0, 1),
-//   scale: new Vector3(1, 1, 1)
-// })
-// ornament_04.addComponentOrReplace(transform_16)
-// engine.addEntity(ornament_04)
 
 const pillar_Top_Stones_Corner_01_6 = new Entity()
 pillar_Top_Stones_Corner_01_6.setParent(scene)
@@ -211,16 +202,16 @@ const transform_19 = new Transform({
 pillar_Top_Stones_Corner_01_8.addComponentOrReplace(transform_19)
 engine.addEntity(pillar_Top_Stones_Corner_01_8)
 
-const stone_Module_4M_3 = new Entity()
-stone_Module_4M_3.setParent(scene)
-stone_Module_4M_3.addComponentOrReplace(gltfShape_2)
-const transform_20 = new Transform({
-  position: new Vector3(11, 14, 11.5),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-stone_Module_4M_3.addComponentOrReplace(transform_20)
-engine.addEntity(stone_Module_4M_3)
+// const stone_Module_4M_3 = new Entity()
+// stone_Module_4M_3.setParent(scene)
+// stone_Module_4M_3.addComponentOrReplace(gltfShape_2)
+// const transform_20 = new Transform({
+//   position: new Vector3(11, 14, 11.5),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1)
+// })
+// stone_Module_4M_3.addComponentOrReplace(transform_20)
+// engine.addEntity(stone_Module_4M_3)
 
 const stone_Module_4M_4 = new Entity()
 stone_Module_4M_4.setParent(scene)
@@ -233,17 +224,83 @@ const transform_21 = new Transform({
 stone_Module_4M_4.addComponentOrReplace(transform_21)
 engine.addEntity(stone_Module_4M_4)
 
-const docksModuleStairs_01 = new Entity()
-docksModuleStairs_01.setParent(scene)
-const gltfShape_7 = new GLTFShape('models/DocksModuleStairs_01/DocksModuleStairs_01.glb')
-docksModuleStairs_01.addComponentOrReplace(gltfShape_7)
-const transform_22 = new Transform({
-  position: new Vector3(12.5, 10, 10.5),
-  rotation: new Quaternion(0.3078008329962545, -0.5925077715740338, 0.36443256415817543, 0.6491395027359548),
+const module_Stair_Straight_1M = new Entity()
+module_Stair_Straight_1M.setParent(scene)
+const gltfShape_20 = new GLTFShape('models/Module_Stair_Straight_1M/Module_Stair_Straight_1M.glb')
+module_Stair_Straight_1M.addComponentOrReplace(gltfShape_20)
+const transform_60 = new Transform({
+  position: new Vector3(11, 12.5, 11.5),
+  rotation: new Quaternion(0, -0.7071067811865478, 0, 0.7071067811865477),
   scale: new Vector3(1, 1, 1)
 })
-docksModuleStairs_01.addComponentOrReplace(transform_22)
-engine.addEntity(docksModuleStairs_01)
+module_Stair_Straight_1M.addComponentOrReplace(transform_60)
+engine.addEntity(module_Stair_Straight_1M)
+
+const module_Stair_Straight_1M_2 = new Entity()
+module_Stair_Straight_1M_2.setParent(scene)
+module_Stair_Straight_1M_2.addComponentOrReplace(gltfShape_20)
+const transform_61 = new Transform({
+  position: new Vector3(10, 12, 11.5),
+  rotation: new Quaternion(0, -0.7071067811865478, 0, 0.7071067811865477),
+  scale: new Vector3(1, 1, 1)
+})
+module_Stair_Straight_1M_2.addComponentOrReplace(transform_61)
+engine.addEntity(module_Stair_Straight_1M_2)
+
+const module_Stair_Straight_1M_3 = new Entity()
+module_Stair_Straight_1M_3.setParent(scene)
+module_Stair_Straight_1M_3.addComponentOrReplace(gltfShape_20)
+const transform_62 = new Transform({
+  position: new Vector3(12, 13, 11.5),
+  rotation: new Quaternion(0, -0.7071067811865478, 0, 0.7071067811865477),
+  scale: new Vector3(1, 1, 1)
+})
+module_Stair_Straight_1M_3.addComponentOrReplace(transform_62)
+engine.addEntity(module_Stair_Straight_1M_3)
+
+const module_Stair_Straight_1M_4 = new Entity()
+module_Stair_Straight_1M_4.setParent(scene)
+module_Stair_Straight_1M_4.addComponentOrReplace(gltfShape_20)
+const transform_63 = new Transform({
+  position: new Vector3(9, 11.5, 11.5),
+  rotation: new Quaternion(0, -0.7071067811865478, 0, 0.7071067811865477),
+  scale: new Vector3(1, 1, 1)
+})
+module_Stair_Straight_1M_4.addComponentOrReplace(transform_63)
+engine.addEntity(module_Stair_Straight_1M_4)
+
+const module_Stair_Straight_1M_5 = new Entity()
+module_Stair_Straight_1M_5.setParent(scene)
+module_Stair_Straight_1M_5.addComponentOrReplace(gltfShape_20)
+const transform_64 = new Transform({
+  position: new Vector3(8, 11, 11.5),
+  rotation: new Quaternion(0, -0.7071067811865478, 0, 0.7071067811865477),
+  scale: new Vector3(1, 1, 1)
+})
+module_Stair_Straight_1M_5.addComponentOrReplace(transform_64)
+engine.addEntity(module_Stair_Straight_1M_5)
+
+const module_Stair_Straight_1M_6 = new Entity()
+module_Stair_Straight_1M_6.setParent(scene)
+module_Stair_Straight_1M_6.addComponentOrReplace(gltfShape_20)
+const transform_65 = new Transform({
+  position: new Vector3(7, 10.5, 11.5),
+  rotation: new Quaternion(0, -0.7071067811865478, 0, 0.7071067811865477),
+  scale: new Vector3(1, 1, 1)
+})
+module_Stair_Straight_1M_6.addComponentOrReplace(transform_65)
+engine.addEntity(module_Stair_Straight_1M_6)
+
+const module_Stair_Straight_1M_7 = new Entity()
+module_Stair_Straight_1M_7.setParent(scene)
+module_Stair_Straight_1M_7.addComponentOrReplace(gltfShape_20)
+const transform_66 = new Transform({
+  position: new Vector3(6, 10, 11.5),
+  rotation: new Quaternion(0, -0.7071067811865478, 0, 0.7071067811865477),
+  scale: new Vector3(1, 1, 1)
+})
+module_Stair_Straight_1M_7.addComponentOrReplace(transform_66)
+engine.addEntity(module_Stair_Straight_1M_7)
 
 const tree_01 = new Entity()
 tree_01.setParent(scene)
@@ -320,7 +377,7 @@ nft_3.setParent(scene)
 const nftShape_3 = new NFTShape('ethereum://0xf5b0a3efb8e8e4c201e2a935f110eaaf3ffecb8d/8556')
 nft_3.addComponentOrReplace(nftShape_3)
 const transform_34 = new Transform({
-  position: new Vector3(11, 12, 11.4),
+  position: new Vector3(9, 12.5, 11.4),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
@@ -383,3 +440,6 @@ const transform_32 = new Transform({
 })
 grassPatchLarge_04_4.addComponentOrReplace(transform_32)
 engine.addEntity(grassPatchLarge_04_4)
+
+// const hud:BuilderHUD =  new BuilderHUD()
+// hud.attachToEntity(docksModuleStairs_01)
