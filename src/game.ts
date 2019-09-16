@@ -352,37 +352,61 @@ const nft = new Entity()
 nft.setParent(scene)
 const nftShape = new NFTShape('ethereum://0xf5b0a3efb8e8e4c201e2a935f110eaaf3ffecb8d/10011')
 nft.addComponentOrReplace(nftShape)
-const transform_27 = new Transform({
+const transform_90 = new Transform({
   position: new Vector3(7, 12, 11.4),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
-nft.addComponentOrReplace(transform_27)
+nft.addComponentOrReplace(transform_90)
 engine.addEntity(nft)
 
-const nft_2 = new Entity()
-nft_2.setParent(scene)
-const nftShape_2 = new NFTShape('ethereum://0xf5b0a3efb8e8e4c201e2a935f110eaaf3ffecb8d/17552')
-nft_2.addComponentOrReplace(nftShape_2)
-const transform_33 = new Transform({
+const nft2 = new Entity()
+nft2.setParent(scene)
+const nftShape2 = new NFTShape('ethereum://0xf5b0a3efb8e8e4c201e2a935f110eaaf3ffecb8d/17552')
+nft2.addComponentOrReplace(nftShape2)
+const transform_91 = new Transform({
   position: new Vector3(9, 12, 11.4),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
-nft_2.addComponentOrReplace(transform_33)
-engine.addEntity(nft_2)
+nft2.addComponentOrReplace(transform_91)
+engine.addEntity(nft2)
 
-const nft_3 = new Entity()
-nft_3.setParent(scene)
-const nftShape_3 = new NFTShape('ethereum://0xf5b0a3efb8e8e4c201e2a935f110eaaf3ffecb8d/8556')
-nft_3.addComponentOrReplace(nftShape_3)
-const transform_34 = new Transform({
+const nft3 = new Entity()
+nft3.setParent(scene)
+const nftShape3 = new NFTShape('ethereum://0xf5b0a3efb8e8e4c201e2a935f110eaaf3ffecb8d/8556')
+nft3.addComponentOrReplace(nftShape3)
+const transform_92 = new Transform({
   position: new Vector3(9, 12.5, 11.4),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
-nft_3.addComponentOrReplace(transform_34)
-engine.addEntity(nft_3)
+nft3.addComponentOrReplace(transform_92)
+engine.addEntity(nft3)
+
+const nft4 = new Entity()
+nft4.setParent(scene)
+const nftShape4 = new NFTShape('ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/1347079')
+nft4.addComponentOrReplace(nftShape4)
+const transform_93 = new Transform({
+  position: new Vector3(6.3, 12, 8.5),
+  rotation: new Quaternion(0, -0.7071067811865478, 0, 0.7071067811865477),
+  scale: new Vector3(1, 1, 1)
+})
+nft4.addComponentOrReplace(transform_93)
+engine.addEntity(nft4)
+
+const nft5 = new Entity()
+nft5.setParent(scene)
+const nftShape5 = new NFTShape('ethereum://0x06012c8cf97BEaD5deAe237070F9587f8E7A266d/1362664')
+nft5.addComponentOrReplace(nftShape5)
+const transform_94 = new Transform({
+  position: new Vector3(6.3, 12, 10),
+  rotation: new Quaternion(0, -0.7071067811865478, 0, 0.7071067811865477),
+  scale: new Vector3(1, 1, 1)
+})
+nft5.addComponentOrReplace(transform_94)
+engine.addEntity(nft5)
 
 const grassPatchLarge_04 = new Entity()
 grassPatchLarge_04.setParent(scene)
@@ -440,6 +464,65 @@ const transform_32 = new Transform({
 })
 grassPatchLarge_04_4.addComponentOrReplace(transform_32)
 engine.addEntity(grassPatchLarge_04_4)
+
+const tableRock_01 = new Entity()
+tableRock_01.setParent(scene)
+const gltfShape_70 = new GLTFShape('models/TableRock_01/TableRock_01.glb')
+tableRock_01.addComponentOrReplace(gltfShape_70)
+const transform_70 = new Transform({
+  position: new Vector3(11.5, 10, 11),
+  rotation: new Quaternion(0, 0, 0, 1),
+  scale: new Vector3(1, 1, 1)
+})
+tableRock_01.addComponentOrReplace(transform_70)
+engine.addEntity(tableRock_01)
+
+const chair_Rock_01 = new Entity()
+chair_Rock_01.setParent(scene)
+const gltfShape_71 = new GLTFShape('models/Chair_Rock_01/Chair_Rock_01.glb')
+chair_Rock_01.addComponentOrReplace(gltfShape_71)
+const transform_71 = new Transform({
+  position: new Vector3(11.5, 10, 9.5),
+  rotation: new Quaternion(0, 0, 0, 1),
+  scale: new Vector3(1, 1, 1)
+})
+chair_Rock_01.addComponentOrReplace(transform_71)
+engine.addEntity(chair_Rock_01)
+
+const book_04 = new Entity()
+book_04.setParent(scene)
+const gltfShape_73 = new GLTFShape('models/Book_04/Book_04.glb')
+book_04.addComponentOrReplace(gltfShape_73)
+const transform_73 = new Transform({
+  position: new Vector3(10.5, 10.9, 10.6),
+  rotation: new Quaternion(0, 0.9951847266721968, 0, 0.09801714032956069),
+  scale: new Vector3(1, 1, 1)
+})
+book_04.addComponentOrReplace(transform_73)
+engine.addEntity(book_04)
+
+const book_06 = new Entity()
+book_06.setParent(scene)
+const gltfShape_72 = new GLTFShape('models/Book_06/Book_06.glb')
+book_06.addComponentOrReplace(gltfShape_72)
+const transform_72 = new Transform({
+  position: new Vector3(11.5, 10.9, 10.5),
+  rotation: new Quaternion(0, 0, 0, 1),
+  scale: new Vector3(1, 1, 1)
+})
+book_06.addComponentOrReplace(transform_72)
+engine.addEntity(book_06)
+
+// const book_06_2 = new Entity()
+// book_06_2.setParent(scene)
+// book_06_2.addComponentOrReplace(gltfShape_72)
+// const transform_74 = new Transform({
+//   position: new Vector3(12.5, 11, 10.1),
+//   rotation: new Quaternion(0, 0, 0, 1),
+//   scale: new Vector3(1, 1, 1)
+// })
+// book_06_2.addComponentOrReplace(transform_74)
+// engine.addEntity(book_06_2)
 
 // const hud:BuilderHUD =  new BuilderHUD()
 // hud.attachToEntity(docksModuleStairs_01)
